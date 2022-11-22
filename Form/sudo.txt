@@ -1,0 +1,12 @@
+:link - Is used for selecting the unvisited links
+:active - Is used for selecting the active links
+:hover 
+
+
+Transition Property :
+
+Transition
+transition-delay
+transition-duration
+transition-Property
+transition-timing-function

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+.div1 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background: #2596be;
+    margin-top: 20px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Design</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="demo.css">
+    <style>
+      body {
+        background: #03001e; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #fdeff9,
+          #ec38bc,
+          #7303c0,
+          #03001e
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #fdeff9,
+          #ec38bc,
+          #7303c0,
+          #03001e
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      .navbar {
+        height: 60px;
+        background: rgba(#fdeff9, #ec38bc, #7303c0, 0.8);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 15px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        word-spacing: 30px;
+        font-size: 30px;
+      }
+      .small-container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .row {
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .col-2 {
+        flex-basis: 50%;
+        align-items: center;
+      }
+      p {
+        font-size: 23px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href=""> Home </a>
+      <a href=""> About </a>
+      <a href=""> Blog </a>
+      <a href=""> Contact </a>
+    </div>
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <h1>Welcome to CSS world</h1>
+          <p>We will learn Css for styling HTML Document</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, minima
+            dolorem. Ducimus libero delectus eaque ex inventore. Voluptatum
+            asperiores voluptatibus totam soluta minus accusamus!
+          </p>
+        </div>
+        <div class="col-2">
+          <div class="radius">
+            <img src="hello.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
